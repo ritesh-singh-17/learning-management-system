@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://learning-management-system-eho9.onrender.com",
+  baseURL: "https://learning-management-system-eho9.onrender.com"
 });
 
 axiosInstance.interceptors.request.use(
